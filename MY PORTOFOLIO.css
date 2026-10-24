@@ -1,0 +1,33 @@
+body {
+  font-family: Arial;
+  text-align: center;
+  background: #eaf2f8;
+  margin: 0;
+}
+header, footer {
+  background: #12343b;
+  color: white;
+  padding: 20px;
+}
+nav a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+}
+section {
+  background: white;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  animation: fade 1s;
+}
+h2 { color: rgb(10, 16, 16); }
+a:hover { color: orange; }
+section:hover {
+  transform: scale(1.02);
+  transition: 0.3s;
+}
+@keyframes fade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}

@@ -1,0 +1,19 @@
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial;background:#101522;color:white}
+header{text-align:center;background:#e63946;padding:25px}
+header h1{margin:0}
+header p{margin-bottom:0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:22px;padding:25px}
+.card{background:#202a3b;border-radius:12px;overflow:hidden;text-align:center;box-shadow:0 4px 12px #0006}
+.card input{display:none}
+.poster{display:block;cursor:pointer;position:relative}
+.poster img{width:100%;height:310px;object-fit:cover;display:block}
+.tag{display:inline-block;background:#e63946;padding:7px 12px;border-radius:20px;margin:10px 3px;font-size:12px}
+.info{padding:0 15px 15px}
+.details{display:none;text-align:left;padding:12px;background:#172033}
+.card input:checked~.details{display:block}
+.review{padding:10px;border-radius:7px;margin:8px 0}
+.positive{background:#174d3a}
+.negative{background:#642c36}
+button{background:#e63946;color:white;border:0;padding:9px 15px;border-radius:20px;cursor:pointer}
+footer{text-align:center;padding:20px;color:#bbb}
