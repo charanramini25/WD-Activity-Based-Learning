@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Portfolio</title>
+<style>
+body {
+  font-family: Arial;
+  text-align: center;
+  background: #eaf2f8;
+  margin: 0;
+}
+header, footer {
+  background: #12343b;
+  color: white;
+  padding: 20px;
+}
+nav a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+}
+section {
+  background: white;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  animation: fade 1s;
+}
+h2 { color: rgb(10, 16, 16); }
+a:hover { color: orange; }
+section:hover {
+  transform: scale(1.02);
+  transition: 0.3s;
+}
+@keyframes fade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>My Portfolio</h1>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>Hello! I am a R.Charan and aspiring web developer.</p>
+  <p>Education: <B class="Tech-CSE">B.Tech CSE</B></p>
+</section>
+
+<section id="skills">
+  <h2>Technical Skills</h2>
+  <p>HTML, CSS, C, Python</p>
+</section>
+
+<section id="projects">
+  <h2>Projects & Achievements</h2>
+  <p>Portfolio Website | Student Management System</p>
+  <p>Hobbies: Reading, Music, Sports</p>
+  <a href="R. Charan.pdf">My Resume</a>
+</section>
+
+<section id="contact">
+  <h2>Contact Me</h2>
+  <p>Email: charanramini25@gmail.com</p>
+</section>
+
+<footer>
+  <p>© 2026 My Portfolio</p>
+</footer>
+
+</body>
+</html>
